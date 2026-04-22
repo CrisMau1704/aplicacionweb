@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Taller de aplicaciones en internet - Práctica 2">
+    <meta name="author" content="Tu nombre">
+    <title>Taller de aplicaciones en internet | Práctica 2</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  
+    <header>
+        <div class="container">
+            <h1>Taller de aplicaciones en internet</h1>
+            <p class="subtitle">Práctica 2 - Estructura semántica</p>
+        </div>
+    </header>
+
+
+    <nav aria-label="Navegación principal">
+        <div class="container">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#contenido">Contenido</a></li>
+                <li><a href="#acerca">Acerca de</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+ 
+    <main>
+
+        <section id="inicio" aria-labelledby="inicio-titulo">
+            <div class="container">
+                <h2 id="inicio-titulo">Bienvenidos</h2>
+                <p>Esta es una estructura semántica para el taller de aplicaciones en internet.</p>
+            </div>
+        </section>
+
+       
+        <section id="contenido" aria-labelledby="contenido-titulo">
+            <div class="container">
+                <h2 id="contenido-titulo">Contenido principal</h2>
+                
+               
+                <article>
+                    <h3>Artículo destacado</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="#" class="read-more">Leer más →</a>
+                </article>
+
+            
+                <article>
+                    <h3>Información relevante</h3>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <a href="#" class="read-more">Leer más →</a>
+                </article>
+
+               
+                <aside aria-label="Información complementaria">
+                    <h4>Datos de interés</h4>
+                    <ul>
+                        <li>✅ HTML semántico</li>
+                        <li>✅ Accesibilidad mejorada</li>
+                        <li>✅ Estructura clara</li>
+                    </ul>
+                </aside>
+            </div>
+        </section>
+
+    
+        <section id="acerca" aria-labelledby="acerca-titulo">
+            <div class="container">
+                <h2 id="acerca-titulo">Acerca del taller</h2>
+                <p>Este taller se enfoca en el desarrollo de aplicaciones web modernas utilizando las mejores prácticas de HTML5, CSS3 y JavaScript.</p>
+                
+                <!-- Figura con caption -->
+                <figure>
+                    <img src="https://via.placeholder.com/600x300" alt="Placeholder para imagen del taller" style="max-width:100%; height:auto;">
+                    <figcaption>Desarrollo de aplicaciones web modernas</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+   
+    <aside class="sidebar" aria-label="Barra lateral">
+        <div class="container">
+            <h3>Recursos adicionales</h3>
+            <ul>
+                <li><a href="#">Documentación HTML5</a></li>
+                <li><a href="#">Guía de CSS3</a></li>
+                <li><a href="#">JavaScript moderno</a></li>
+            </ul>
+        </div>
+    </aside>
+
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p>Email: info@tallerapps.com</p>
+                    <p>Tel: +123 456 789</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Enlaces rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#contenido">Contenido</a></li>
+                        <li><a href="#acerca">Acerca de</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Síguenos</h4>
+                    <ul class="social-links">
+                        <li><a href="#" aria-label="Twitter">Twitter</a></li>
+                        <li><a href="#" aria-label="GitHub">GitHub</a></li>
+                        <li><a href="#" aria-label="LinkedIn">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Taller de aplicaciones en internet. Todos los derechos reservados.</p>
+                <p>Práctica 2 - Estructura semántica HTML5</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
